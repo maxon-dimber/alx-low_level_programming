@@ -10,8 +10,6 @@ int main(void)
 	x = "a";
 	while (x <= 'z')
 	{
-	for (a = 0; a < 26; a++)
-	{
 		putchar(x);
 		x++;
 	}
