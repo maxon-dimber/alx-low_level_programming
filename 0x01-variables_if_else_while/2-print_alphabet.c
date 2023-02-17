@@ -5,12 +5,15 @@
  */
 int main(void)
 {
-	char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
-	int a;
+	char x;
 
+	x = "a";
+	while (x <= 'z')
+	{
 	for (a = 0; a < 26; a++)
 	{
-		putchar(alpha[a]);
+		putchar(x);
+		x++;
 	}
 	putchar ('\n');
 	return (0);
